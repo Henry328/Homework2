@@ -64,8 +64,8 @@ that contain buttons*/
 		padding: 20px;
 		background-color: white;
 		opacity: .85;
-		overflow: hidden;
-		}
+		overflow: scroll;}
+
 		.float-box-text {
 			flex: wrap;
 			font-style: bold;
@@ -73,8 +73,7 @@ that contain buttons*/
 			margin-bottom: 10px;}
 		.float-box-paragraph{
 			font-size: 25px;
-			text-overflow: scroll;
-			text-overflow: ellipsis;}
+			text-overflow: scroll;}
 		.middle-float-right-botton {
 			background-color: yellow;
 			color: black;
@@ -87,7 +86,7 @@ that contain buttons*/
 
 
 	.bottom-row {
-		min-height: 350px;
+		min-height: 300px;
 		background-color: white;
 		display: flex;}
 
