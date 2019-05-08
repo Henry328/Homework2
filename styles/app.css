@@ -1,0 +1,132 @@
+/*This is styling for the top header with the black background*/
+.top-header {
+	min-height: 150px;
+	background-color: black;
+	width: 100%;
+	font-family: Merriweather;
+	margin: 0px;
+	flex-wrap: wrap;
+	}
+	.yellow-text-left {
+		color: yellow;
+		font-size: 45px;
+		padding: 15px;}
+	.nav {
+		text-align: right;
+		font-size: 25px;
+		padding-right: 10px;
+		padding-bottom: 15px;}
+			a {
+				text-decoration: none;
+				color: white;
+				padding-right: 10px;}
+	
+/*This is styling for the middle section that startes with the grey header and ends with the 3 boxes
+that contain buttons*/
+
+.section-one {
+	border-top: 5px solid yellow;}
+	.middle-header-div {
+		height: 100px;
+		width: 100%;
+		text-align: center;
+		font-style: italic;
+		color: black;
+		font-family: sans-serif;
+		font-size: 35px;
+		background-color: lightgrey;
+		display: table;
+		vertical-align: middle;
+		flex-wrap: wrap;}
+		
+
+		del {
+			text-decoration: line-through;
+			color: darkgrey;}
+		ins {
+			text-decoration: none;
+			border-bottom: solid 2px yellow;}
+
+	.middle {
+		min-height: 450px;
+		border:solid 1px black;
+		background-image:url(../images/coworking.jpg);
+		background-size: cover;}
+		
+
+	.middle-float-right {
+		float: right;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		width: 35%;
+		height: 410px;
+		margin: 20px;
+		padding: 20px;
+		background-color: white;
+		opacity: .85;
+		overflow: hidden;
+		}
+		.float-box-text {
+			flex: wrap;
+			font-style: bold;
+			font-size: 30px;
+			margin-bottom: 10px;}
+		.float-box-paragraph{
+			font-size: 25px;
+			text-overflow: scroll;
+			text-overflow: ellipsis;}
+		.middle-float-right-botton {
+			background-color: yellow;
+			color: black;
+			text-align: center;
+			font-family: oswald;
+			font-size: 20px;
+			border-radius: 8px;
+			width: 100%;
+			opacity: 1;}
+
+
+	.bottom-row {
+		min-height: 350px;
+		background-color: white;
+		display: flex;}
+
+		.col {
+			width: 33.33%;
+			box-sizing: border-box;
+			border-right: 1px solid lightgrey;
+			padding-left: 20px;
+			padding-right: 20px;
+			overflow: hidden;}
+
+		.bottom-row-button {
+			background-color: lightgrey;
+			color: black;
+			text-align: center;
+			font-family: oswald;
+			font-size: 20px;
+			border-radius: 8px;
+			width: 90%;
+			margin-right: 5%;
+			margin-left: 5%;
+			text-align: center;
+			overflow: hidden;}
+
+
+
+/*This code section is for the styling of the bottom row*/
+	.footer {
+		min-height: 60px;
+		width: 100%;
+		background-color: black;
+		display: table;}
+
+		.footer-text {
+			text-align: left;
+			color: white;
+			font-family: sans-serif;
+			font-size: 25px;
+			background-color: black;
+			padding-left: 15px;
+			vertical-align: middle;}
+
